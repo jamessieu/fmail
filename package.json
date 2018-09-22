@@ -1,0 +1,46 @@
+{
+  "name": "fmail",
+  "version": "1.0.0",
+  "description": "-build a basic implementation of the Google mail client using agile practices",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server:watch": "npx nodemon ./server.js",
+    "webpack:watch": "npx webpack --watch",
+    "pack": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamessieu/fmail.git"
+  },
+  "author": "James Sieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamessieu/fmail/issues"
+  },
+  "homepage": "https://github.com/jamessieu/fmail#readme",
+  "dependencies": {
+    "@material-ui/core": "^1.4.3",
+    "@material-ui/icons": "^2.0.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss": "^7.0.2",
+    "postcss-cli": "^6.0.0",
+    "postcss-import": "^12.0.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
